@@ -1,0 +1,650 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+.video {
+    height: 70vh;
+    width: 70vw;
+    z-index: 1;
+    margin-left: 20em;
+}
+
+.highlight {
+    color: #a3e635;
+    z-index: 5;
+}
+
+.caption {
+    font-family: "Sans-Serif";
+    font-weight: bold;
+}
+
+.desktop-grad {
+    background-image: linear-gradient(270deg, #0000, #16284521 28%, #1e293b 75%);
+    width: 100%;
+    position: absolute;
+    inset: 0% auto 0% 0%;
+    z-index: -1;
+}
+
+
+.nxt-talks-top-section {
+    z-index: 4;
+
+    font-family: "Roboto";
+    background-image: linear-gradient(270deg, #000 15%, #1e293b 84%);
+
+}
+
+.button {
+    z-index: 2;
+}
+
+.nxt-wave {
+    color: #ffffff;
+    font-family: "Roboto";
+    margin-left: 5em;
+    margin-bottom: 3em;
+}
+
+.but-claim {
+    color: #ffffff;
+    width: 370px;
+    font-family: "Roboto";
+}
+
+.offer {
+    color: green;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.strike {
+    margin-left: -6em;
+    width: 45px;
+    height: 25px;
+}
+
+.bg-comp-list {
+    background-color: #0f172a;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.rare-collection {
+    background-color: #1e293c;
+    font-family: "Roboto";
+    font-weight: bolder;
+}
+
+.desc {
+    color: #cbd5e1;
+    font-size: 19px;
+    margin-left: 280px;
+    margin-right: 200px;
+    font-weight: 400;
+}
+
+.btn-section {
+    margin-left: 100px;
+}
+
+.trend {
+    background-color: transparent;
+    border-radius: 30px;
+    border-color: #ffffff;
+    padding: 12px;
+}
+
+.all {
+    background-color: transparent;
+    border-radius: 30px;
+    border-color: #ffffff;
+    padding: 10px;
+    border-style: solid;
+}
+
+.trend-card {
+    height: auto;
+    width: 300px;
+    background-color: #384454;
+    border-radius: 20px;
+}
+
+.button-style {
+    background-color: grey;
+    margin-left: -3em;
+    margin-top: 15em;
+    height: 40px;
+    width: 40px !important;
+    border-radius: 35px;
+}
+
+.button-style-1 {
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 15em;
+    height: 40px;
+    width: 40px;
+}
+
+.p1-img {
+    background-image: url('https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/podcast/rare-collection-of-insider-knowledge/goutam.png');
+    width: 300px;
+    height: 194px;
+    background-size: cover;
+}
+
+.p2-img {
+    background-image: url('https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/podcast/rare-collection-of-insider-knowledge/ashok-vardhan.png');
+    width: 300px;
+    height: 194px;
+    background-size: cover;
+}
+
+.p3-img {
+    background-image: url('https://nxtwave.imgix.net/ccbp-website/podcast/rare-collection-of-insider-knowledge/sri-vidhya.png?auto=format,compress&q=80');
+    width: 300px;
+    height: 194px;
+    background-size: cover;
+}
+
+.p4-img {
+    background-image: url('https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/podcast/rare-collection-of-insider-knowledge/kiran.png');
+    width: 300px;
+    height: 194px;
+    background-size: cover;
+}
+
+.p5-img {
+    background-image: url('https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/podcast/rare-collection-of-insider-knowledge/abhinav.png');
+    width: 300px;
+    height: 194px;
+    background-size: cover;
+}
+
+.p6-img {
+    background-image: url('https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/podcast/rare-collection-of-insider-knowledge/siva-ghani-reddy.png');
+    width: 300px;
+    height: 194px;
+    background-size: cover;
+}
+
+.p7-img {
+    background-image: url('https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/podcast/rare-collection-of-insider-knowledge/pritesh.png');
+    width: 300px;
+    height: 194px;
+    background-size: cover;
+}
+
+.p8-img {
+    background-image: url('https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/podcast/rare-collection-of-insider-knowledge/giridhar.png');
+    width: 300px;
+    height: 194px;
+    background-size: cover;
+}
+
+.p9-img {
+    background-image: url('https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/podcast/rare-collection-of-insider-knowledge/shiva-kumar.png');
+    width: 300px;
+    height: 194px;
+    background-size: cover;
+}
+
+.p10-img {
+    background-image: url('https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/podcast/rare-collection-of-insider-knowledge/sanjay.png');
+    width: 300px;
+    height: 194px;
+    background-size: cover;
+}
+
+.p11-img {
+    background-image: url('https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/podcast/rare-collection-of-insider-knowledge/sandeep.png');
+    width: 300px;
+    height: 194px;
+    background-size: cover;
+}
+
+.p12-img {
+    background-image: url('https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/podcast/rare-collection-of-insider-knowledge/architha-nagelli.png');
+    width: 300px;
+    height: 194px;
+    background-size: cover;
+}
+
+.p13-img {
+    background-image: url('https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/podcast/rare-collection-of-insider-knowledge/naveen.png');
+    width: 300px;
+    height: 194px;
+    background-size: cover;
+}
+
+.p14-img {
+    background-image: url('https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/podcast/rare-collection-of-insider-knowledge/deepa-wadhwani.png');
+    width: 300px;
+    height: 194px;
+    background-size: cover;
+}
+
+.p15-img {
+    background-image: url('https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/podcast/rare-collection-of-insider-knowledge/sanjay-sehgal.png');
+    width: 300px;
+    height: 194px;
+    background-size: cover;
+}
+
+.p16-img {
+    background-image: url('https://nxtwave.imgix.net/ccbp-website/podcast/rare-collection-of-insider-knowledge/trivikrama-kothinti-2.png?auto=format,compress&q=80');
+    width: 300px;
+    height: 194px;
+    background-size: cover;
+}
+
+.p17-img {
+    background-image: url('https://nxtwave.imgix.net/ccbp-website/podcast/rare-collection-of-insider-knowledge/rakesh-mishra.png?auto=format,compress&q=80');
+    width: 300px;
+    height: 194px;
+    background-size: cover;
+}
+
+.p18-img {
+    background-image: url('https://nxtwave.imgix.net/ccbp-website/podcast/rare-collection-of-insider-knowledge/ram-ganesh.png?auto=format,compress&q=80');
+    width: 300px;
+    height: 194px;
+    background-size: cover;
+}
+
+.p19-img {
+    background-image: url('https://nxtwave.imgix.net/ccbp-website/podcast/rare-collection-of-insider-knowledge/girish-akash.png?auto=format,compress&q=80');
+    width: 300px;
+    height: 194px;
+    background-size: cover;
+}
+
+.p20-img {
+    background-image: url('https://nxtwave.imgix.net/ccbp-website/podcast/rare-collection-of-insider-knowledge/hari-tn.png?auto=format,compress&q=80');
+    width: 300px;
+    height: 194px;
+    background-size: cover;
+}
+
+.p21-img {
+    background-image: url('https://nxtwave.imgix.net/ccbp-website/podcast/rare-collection-of-insider-knowledge/girish-akash.png?auto=format,compress&q=80');
+    width: 300px;
+    height: 194px;
+    background-size: cover;
+}
+
+.p22-img {
+    background-image: url('https://nxtwave.imgix.net/ccbp-website/podcast/rare-collection-of-insider-knowledge/shri-dana-kishor.png?auto=format,compress&q=80');
+    width: 300px;
+    height: 194px;
+    background-size: cover;
+}
+
+.p23-img {
+    background-image: url('https://nxtwave.imgix.net/ccbp-website/podcast/rare-collection-of-insider-knowledge/panel-2.png?auto=format,compress&q=80');
+    width: 300px;
+    height: 194px;
+    background-size: cover;
+}
+
+.p24-img {
+    background-image: url('https://nxtwave.imgix.net/ccbp-website/podcast/rare-collection-of-insider-knowledge/panel-1.png?auto=format,compress&q=80');
+    width: 300px;
+    height: 194px;
+    background-size: cover;
+}
+
+.p25-img {
+    background-image: url('https://nxtwave.imgix.net/ccbp-website/podcast/rare-collection-of-insider-knowledge/panel-3.png?auto=format,compress&q=80');
+    width: 300px;
+    height: 194px;
+    background-size: cover;
+}
+
+.p26-img {
+    background-image: url('https://nxtwave.imgix.net/ccbp-website/podcast/rare-collection-of-insider-knowledge/priyatham-bollimpalli.png?auto=format,compress&q=80');
+    width: 300px;
+    height: 194px;
+    background-size: cover;
+}
+
+.p27-img {
+    background-image: url('https://nxtwave.imgix.net/ccbp-website/podcast/rare-collection-of-insider-knowledge/nikhil.png?auto=format,compress&q=80');
+    width: 300px;
+    height: 194px;
+    background-size: cover;
+}
+
+.p28-img {
+    background-image: url('https://nxtwave.imgix.net/ccbp-website/podcast/rare-collection-of-insider-knowledge/nirmal-manoj.png?auto=format,compress&q=80');
+    width: 300px;
+    height: 194px;
+    background-size: cover;
+}
+
+.p29-img {
+    background-image: url('https://nxtwave.imgix.net/ccbp-website/podcast/rare-collection-of-insider-knowledge/sivay-lamba.png?auto=format,compress&q=80');
+    width: 300px;
+    height: 194px;
+    background-size: cover;
+}
+
+.p30-img {
+    background-image: url('https://nxtwave.imgix.net/ccbp-website/podcast/rare-collection-of-insider-knowledge/rahul-garg.png?auto=format,compress&q=80');
+    width: 300px;
+    height: 194px;
+    background-size: cover;
+}
+
+.p31-img {
+    background-image: url('https://nxtwave.imgix.net/ccbp-website/podcast/rare-collection-of-insider-knowledge/govind-goyal.png?auto=format,compress&q=80');
+    width: 300px;
+    height: 194px;
+    background-size: cover;
+}
+
+.p32-img {
+    background-image: url('https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/podcast/rare-collection-of-insider-knowledge/shyama.png');
+    width: 300px;
+    height: 194px;
+    background-size: cover;
+}
+
+.p33-img {
+    background-image: url('https://cdn.prod.website-files.com/64362e90abbff481a6d25ce8/6690abec51e34cbc9072482b_Johan-thumbinail.webp');
+    width: 300px;
+    height: 194px;
+    background-size: cover;
+}
+
+.p34-img {
+    background-image: url('https://cdn.prod.website-files.com/64362e90abbff481a6d25ce8/6690b14ce49b9ed3c0a7499c_sandeep-chandra-thumbnail.webp');
+    width: 300px;
+    height: 194px;
+    background-size: cover;
+}
+
+.p35-img {
+    background-image: url('https://cdn.prod.website-files.com/64362e90abbff481a6d25ce8/6690b7c2dc4fade04120f946_tezan-thumbnail.webp');
+    width: 300px;
+    height: 194px;
+    background-size: cover;
+}
+
+.p36-img {
+    background-image: url('https://cdn.prod.website-files.com/64362e90abbff481a6d25ce8/6690bf2c4727b379bef9754b_ankur-thumbnail.webp');
+    width: 300px;
+    height: 194px;
+    background-size: cover;
+}
+
+.p37-img {
+    background-image: url('https://cdn.prod.website-files.com/64362e90abbff481a6d25ce8/6690c3b977eb17ab2fe49ddb_krishna-raghavan-thumbnail.webp');
+    width: 300px;
+    height: 194px;
+    background-size: cover;
+}
+
+.p38-img {
+    background-image: url('https://cdn.prod.website-files.com/64362e90abbff481a6d25ce8/6690c65ced331713c1b1b2dc_irshad-thumbnail.webp');
+    width: 300px;
+    height: 194px;
+    background-size: cover;
+}
+
+.p39-img {
+    background-image: url('https://cdn.prod.website-files.com/64362e90abbff481a6d25ce8/6690c9ef1acc87ac5abbaa62_sriram-thumbnail.webp');
+    width: 300px;
+    height: 194px;
+    background-size: cover;
+}
+
+.p40-img {
+    background-image: url('https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/podcast/rare-collection-of-insider-knowledge/kalmeshwar.png');
+    width: 300px;
+    height: 194px;
+    background-size: cover;
+}
+
+.p41-img {
+    background-image: url('https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/podcast/rare-collection-of-insider-knowledge/shashank.png');
+    width: 300px;
+    height: 194px;
+    background-size: cover;
+}
+
+.background-wrap {
+    background-color: #5a7184;
+    border-radius: 10px;
+    margin-bottom: 4em;
+}
+
+.trailer {
+    background-color: #60a5fa;
+    border-radius: 20px;
+    height: 35px;
+    width: 95px;
+    margin-top: -50px;
+}
+
+.trail-h {
+    margin-top: 5px;
+}
+
+.pause {
+    background-color: white;
+    height: 20px;
+    width: 15px;
+    margin: 5px;
+    border-radius: 45px;
+}
+
+.link:link {
+    color: white;
+}
+
+.exp-title {
+    font-size: 23px;
+    color: white;
+    text-align: left;
+}
+
+.clock {
+    height: 30px;
+    margin-top: -2px;
+}
+
+.timing {
+    font-family: "Roboto";
+    color: #e2e8f0;
+    font-weight: 400;
+}
+
+.position {
+    font-weight: 400;
+    font-family: "Roboto";
+    margin-top: -15px;
+    font-size: 14px;
+}
+
+.modal-bg {
+    background-color: #384454;
+    font-weight: 900;
+    font-family: "Roboto";
+}
+
+.speaker-img {
+    border-radius: 45px;
+    height: 70px;
+    width: 70px;
+}
+
+.learn-list {
+    color: #e2e8f0;
+    font-weight: 100;
+    font-size: 15px;
+    font-family: "Roboto";
+    margin-top: 15px;
+}
+
+.student-review-bg {
+    background-color: #0f172a;
+    color: #ffffff;
+    font-family: "Roboto";
+}
+
+.happy-feedback-txt {
+    color: #f59e0b;
+    font-size: 20px;
+}
+
+.happy-feedback {
+    border: 1px solid #713f12;
+    background-color: #713f1230;
+    height: 40px;
+    width: 310px;
+    border-radius: 33px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.review-card {
+    background-color: #1e293b;
+    border-radius: 6.45px;
+    height: 251px;
+    margin-bottom: 50px;
+    width: 500px;
+}
+
+.student-review {
+    margin-left: 100px;
+    width: 500px;
+    margin: auto;
+    margin-left: 27em;
+}
+
+.feedback {
+    color: #e2e8f0;
+    font-size: 18px;
+    margin-top: 10px;
+    font-family: "Roboto";
+    line-height: 35.45px;
+}
+
+.name {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.nxtwave-empower {
+    background-color: #0f172a;
+    background-image: url('https://res.cloudinary.com/dumto3eef/image/upload/v1739974637/64362e90abbff4e843d25fd4_NxtWave_s_Empowering_Podcast_Series_to_Shape_your_Dream_Career._1_vaj46l.png');
+    background-position: 50%;
+    background-size: cover;
+    padding-left: 80px;
+    font-family: "Roboto";
+}
+
+.emp-title {
+    width: 18em;
+    margin-left: 60px;
+    line-height: 72px;
+    font-size: 45px;
+}
+
+.empower {
+    width: 19em;
+    font-size: 25px;
+    margin-left: 60px;
+}
+
+.emp-reward {
+    margin-top: 10px;
+}
+
+.access-form {
+    background-color: #0f172a;
+    font-family: "Roboto";
+}
+
+.claim-head {
+    margin-top: 50px;
+    font-size: 45px;
+}
+
+.input-box {
+    background-color: rgb(51, 65, 85);
+    border: 1px solid rgb(71, 85, 105);
+    border-radius: 10px;
+    color: grey;
+    padding-left: 10px;
+    width: 370px;
+    padding: 10px;
+}
+
+.form-content {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.descp {
+    font-size: 20px;
+}
+
+.bottom-sec {
+    background-color: #0f172a;
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.bottom-f-sec {
+    margin-left: 8em;
+}
+
+.reach {
+    color: #5a7184;
+}
+
+.footer-2 {
+    margin-left: 8em;
+}
+
+.list {
+    color: #5a7184;
+    list-style-type: none;
+    padding-top: 10px;
+    margin-left: -20px;
+}
+
+.payment-sec {
+    margin-left: 7em;
+}
+
+.payment {
+    color: #5a7184;
+    font-weight: bold;
+}
+
+.location {
+    margin-bottom: 4em;
+    margin-right: 10px;
+}
+
+.horizontal-line {
+    background-color: #5a7184;
+    margin-left: 8em;
+    margin-right: 7em;
+}
+
+.space {
+    margin-left: 10em;
+}
+
+.bottom-line {
+    color: #5a7184;
+    margin-right: 7em;
+    text-align: right;
+    font-size: 16px;
+}
